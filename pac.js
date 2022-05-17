@@ -10,6 +10,10 @@ function FindProxyForURL(url, host) {
     if (dnsDomainIs(host, "openvpn.net")) { return proxy_yes; }
     if (dnsDomainIs(host, "githubusercontent.com")) { return proxy_yes; }
     if (dnsDomainIs(host, "vscode.dev")) { return proxy_yes; }
+    if (dnsDomainIs(host, "stackoverflow.com")) { return proxy_yes; }
+    if (dnsDomainIs(host, "gravatar.com")) { return proxy_yes; }
+    if (dnsDomainIs(host, "googlesyndication.com")) { return proxy_yes; }
+    if (dnsDomainIs(host, "googleapis.com")) { return proxy_yes; }
 
     return proxy_no;
 }
