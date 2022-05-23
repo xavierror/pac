@@ -19,6 +19,7 @@ function FindProxyForURL(url, host) {
     if (dnsDomainIs(host, "ytimg.com")) { return proxy_yes; }
     if (dnsDomainIs(host, "ggpht.com")) { return proxy_yes; }
     if (dnsDomainIs(host, "gstatic.com")) { return proxy_yes; }
+    if (dnsDomainIs(host, "googlevideo.com")) { return proxy_yes; }
 
     return proxy_no;
 }
