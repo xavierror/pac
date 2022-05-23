@@ -20,6 +20,7 @@ function FindProxyForURL(url, host) {
     if (dnsDomainIs(host, "ggpht.com")) { return proxy_yes; }
     if (dnsDomainIs(host, "gstatic.com")) { return proxy_yes; }
     if (dnsDomainIs(host, "googlevideo.com")) { return proxy_yes; }
+    if (dnsDomainIs(host, "btbtt12.com")) { return proxy_yes; }
 
     return proxy_no;
 }
