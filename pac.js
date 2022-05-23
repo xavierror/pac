@@ -15,6 +15,7 @@ function FindProxyForURL(url, host) {
     if (dnsDomainIs(host, "googlesyndication.com")) { return proxy_yes; }
     if (dnsDomainIs(host, "googleapis.com")) { return proxy_yes; }
     if (dnsDomainIs(host, "bgm.tv")) { return proxy_yes; }
+    if (dnsDomainIs(host, "youtube.com")) { return proxy_yes; }
 
     return proxy_no;
 }
