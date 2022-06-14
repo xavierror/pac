@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/xavierror/pac/main/pac.js
