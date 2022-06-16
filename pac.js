@@ -22,6 +22,7 @@ function FindProxyForURL(url, host) {
     if (dnsDomainIs(host, "googlevideo.com")) { return proxy_yes; }
     if (dnsDomainIs(host, "btbtt12.com")) { return proxy_yes; }
     if (dnsDomainIs(host, "nyaa.si")) { return proxy_yes; }
+    if (dnsDomainIs(host, "trakt.tv")) { return proxy_yes; }
 
     return proxy_no;
 }
