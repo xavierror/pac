@@ -25,6 +25,7 @@ function FindProxyForURL(url, host) {
     if (dnsDomainIs(host, "trakt.tv")) { return proxy_yes; }
     if (dnsDomainIs(host, "greasyfork.org")) { return proxy_yes; }
     if (dnsDomainIs(host, "dmhy.org")) { return proxy_yes; }
+    if (dnsDomainIs(host, "postman.com")) { return proxy_yes; }
 
     return proxy_no;
 }
