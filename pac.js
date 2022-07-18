@@ -28,6 +28,7 @@ function FindProxyForURL(url, host) {
     if (dnsDomainIs(host, "postman.com")) { return proxy_yes; }
     if (dnsDomainIs(host, "ant.design")) { return proxy_yes; }
     if (dnsDomainIs(host, "live.com")) { return proxy_yes; }
+    if (dnsDomainIs(host, "office.net")) { return proxy_yes; }
 
     return proxy_no;
 }
